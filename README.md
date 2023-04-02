@@ -24,5 +24,5 @@ cd /D "%~dp0"
 - **This command starts the python script automatically**  
 python "DPReview Studio Downloader.py"
 
-- **This command prevents cmd from exiting if their is an error or the download finishes. Users must manually close cmd. Very useful**  
+- **This command prevents cmd from exiting if their is an error or the download finishes. Users must manually close cmd. Very useful.**  
 cmd /k
