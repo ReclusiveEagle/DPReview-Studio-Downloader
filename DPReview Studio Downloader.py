@@ -129,7 +129,7 @@ def download_file(urlKey, directory):
     
     with open(file_path, "wb") as f:
     
-#Progress bar ripped from https://www.geeksforgeeks.org/progress-bars-in-python/
+#Progress bar ripped from https://www.geeksforgeeks.org/progress-bars-in-python/ comment out line 7 and 133 to 136 to disable.
         for i in tqdm (range (100),
                desc="Loading…",
                ascii=False, ncols=75):
