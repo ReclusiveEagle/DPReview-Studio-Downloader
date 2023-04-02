@@ -13,7 +13,7 @@ Originally created by [thatcherfreeman](https://github.com/thatcherfreeman/dprev
 - Removed .txt files containing metadata. Images already contain embeded EXIF and IPTC metadata.
 
 ## Requirements:
-Python *Obviously*  
+Python.  
 Progress bar requires [tqdm](https://pypi.org/project/tqdm/). To disable, comment out line 7 and 133 to 136.
 
 ## Optional:
