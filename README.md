@@ -7,4 +7,4 @@ Originally created by [thatcherfreeman](https://github.com/thatcherfreeman/dprev
 - Script is now able to download multiple links per widget attribute. Previous script was only able to download one link per attribute, resulting in .acr.jpeg not downloading from the RAW drop down at all. In camera JPEG, RAW file, and .acr.jpeg all download correctly now.
 - Check added for invalid characters **<>:"/\\|?***
 - Preserves original file structure. Extremely important or metadata that is not logged such as E-Shutter and Pixel-Shift.
-- Removed .txt files containing metadata generated for each image download. Images already contain embeded EXIF and IPTC metadata.
+- Removed .txt files containing metadata. Images already contain embeded EXIF and IPTC metadata.
