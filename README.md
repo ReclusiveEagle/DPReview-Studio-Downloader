@@ -11,3 +11,6 @@ Originally created by [thatcherfreeman](https://github.com/thatcherfreeman/dprev
 - Script is now able to download multiple links per widget attribute. Previous script was only able to download one link per attribute, resulting in .acr.jpeg not downloading from the RAW drop down at all. In camera JPEG, RAW file, and .acr.jpeg all download correctly now.
 - Check added for invalid characters **<>:"/\\|?***
 - Removed .txt files containing metadata. Images already contain embeded EXIF and IPTC metadata.
+
+## Requirements:
+Progress bar requires [tqdm](https://pypi.org/project/tqdm/)
