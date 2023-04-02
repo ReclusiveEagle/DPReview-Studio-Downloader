@@ -14,3 +14,15 @@ Originally created by [thatcherfreeman](https://github.com/thatcherfreeman/dprev
 
 ## Requirements:
 Progress bar requires [tqdm](https://pypi.org/project/tqdm/). To disable, comment out line 7 and 133 to 136.
+
+## Optional:
+I've included an optional .bat file to start the script in the current folder. Here is what it does.
+
+- **This command points cmd/powershell to the current directory (folder the .bat is in)**  
+cd /D "%~dp0"
+
+- **This command starts the python file automatically**  
+python "DPReview Studio Downloader.py"
+
+- **This command prevents cmd from exiting if their is an error or the download finishes. Users must manually close cmd. Very useful**  
+cmd /k
